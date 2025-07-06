@@ -1,0 +1,106 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;valid-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Valid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 659286000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2161200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigates to login page",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\New folder 2\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2999008600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user logs in with valid credentials",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\New folder 2\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1547774800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should see the dashboard",
+            "match": {
+              "location": "..\\..\\..\\..\\..\\New folder 2\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\support_code_library_builder\\get_definition_line_and_uri.js:14"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 55891200,
+              "error_message": "Error: Login failed\n    at World.<anonymous> (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\tests\\step-definitions\\login.steps.js:34:11)\n    at async wrapPromiseWithTimeout (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\time.js:57:12)\n    at async Object.run (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:64:22)\n    at async Object.run (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\step_runner.js:51:26)\n    at async TestCaseRunner.invokeStep (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:95:16)\n    at async TestCaseRunner.runStep (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:244:26)\n    at async C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:175:44\n    at async TestCaseRunner.aroundTestStep (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:120:32)\n    at async TestCaseRunner.runAttempt (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:158:13)\n    at async TestCaseRunner.run (C:\\New folder (2)\\playwright-cucumber\\New folder\\playwright-cucumber-framework\\playwright-cucumber-framework\\node_modules\\@cucumber\\cucumber\\lib\\runtime\\test_case_runner.js:136:35)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 168400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 355629799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [
+      {
+        "name": "@sanity",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\login.feature"
+  }
+]
