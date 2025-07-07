@@ -29,8 +29,5 @@ When('user logs in with valid credentials', async () => {
 });
 
 Then('user should see the dashboard', async () => {
-  const title = await loginPage.getTitle();
-  if (!title.includes('Dashboard')) {
-    throw new Error('Login failed');
-  }
+  await loginPage.assertPageTitle(page,config.credentials.dashboardtitle);
 });
