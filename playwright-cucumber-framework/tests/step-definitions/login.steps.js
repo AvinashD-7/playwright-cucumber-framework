@@ -31,3 +31,7 @@ When('user logs in with valid credentials', async () => {
 Then('user should see the dashboard', async () => {
   await loginPage.assertPageTitle(page,config.credentials.dashboardtitle);
 });
+
+When('user logs in with username {string} and password {string}', async (username, password) => {
+  await loginPage.login(username, password);
+});

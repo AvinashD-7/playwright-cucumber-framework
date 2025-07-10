@@ -1,0 +1,68 @@
+# =====================
+# Node.js dependencies
+# =====================
+node_modules/
+package-lock.json
+
+# ===============
+# Environment
+# ===============
+.env
+.env.*
+
+# ===============
+# Playwright Artifacts
+# ===============
+test-results/
+playwright-report/
+*.zip
+*.mp4
+*.webm
+*.png
+*.jpg
+*.trace
+
+# ===============
+# Allure Reports
+# ===============
+allure-report/
+allure-results/
+
+# ========================
+# Cucumber Test Reports
+# ========================
+reports/
+*.json
+*.html
+
+# ========================
+# Logs and Debug Files
+# ========================
+logs/
+*.log
+debug.log
+npm-debug.log*
+
+# ========================
+# IDEs and Editors
+# ========================
+.vscode/
+.idea/
+*.iml
+
+# ========================
+# OS-specific files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ===============
+# Coverage (if using NYC or similar)
+# ===============
+coverage/
+
+# ===============
+# Temporary files
+# ===============
+*.tmp
+*.swp
